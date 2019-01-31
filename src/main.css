@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('http://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+
+body {
+
+	background-image: url('./images/background.jpg');
+
+}
+
+
+
+
+.image
+{
+position: fixed;
+right:100px;
+top:100px;
+}
+
+input:invalid { background-color : #ff0000;}
+
+input:valid { background-color : #99ff99;}
+
+
+.summary {
+	 margin-left: auto;
+ 	 margin-right: auto;
+  	width: 80%;
+  	text-align: center;
+  	border: 1px #aaa solid; 
+    background-color: #fff; 
+
+
+
+}
+
+.summary ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
+#logo {
+display: block;
+margin: 0 auto;
+height: auto; /* spécifiez la hauteur de l'image, une bonne attitude à prendre */
+width: auto; /* spécifiez la largeur de l'image, une bonne habitude à prendre */ 
+
+}
+
